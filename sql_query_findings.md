@@ -12,6 +12,8 @@ In terms of USD spent, the largest differences appear to be between Buenos
 Aires and California, and Uttar-Pradesh an Maharashtra. A lead difference
 query could readily answer this question.
 
+![Query 1 graph](https://github.com/fedebianco12/sql-film-data/blob/master/images/query1_graph.png)
+
 ### Query 2
 ##### What amount was spent and how many rentals were there for the top 5-grossing categories?
 
@@ -21,6 +23,7 @@ amount of films rented vs. USD generated for sci-fi, suggesting that each video
 rental generates significantly more than for other categories. The inverse seems
 to be true for animation.
 
+![Query 2 graph](https://github.com/fedebianco12/sql-film-data/blob/master/images/query2_graph.png)
 
 ### Query 3
 ##### Average amount spent and rentals by spending decile?
@@ -30,6 +33,7 @@ there is a jump between the ninth and tenth deciles both in terms of average
 spent and average rentals. This is a continuation of the overall pattern
 observed throughout.
 
+![Query 3 graph](https://github.com/fedebianco12/sql-film-data/blob/master/images/query3_graph.png)
 
 ### Query 4
 ##### For the top 25% longest family films, how many films are there per category?
@@ -38,3 +42,5 @@ category. The animation category is the largest category, with 22 videos—this
 can bring up certain questions, such as how the categories are classified: is it
 possible that “children” and “comedy” movies are also included in the animation
 category?
+
+![Query 4 graph](https://github.com/fedebianco12/sql-film-data/blob/master/images/query4_graph.png)
